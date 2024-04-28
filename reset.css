@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    /* "Halo" autour d'un élément (principalement lorsqu'il est ":focus") */
+    outline: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    /* Suppression des puces de toutes les listes */
+    list-style: none;
+}
+
+a {
+    /* on reprend la couleur transmise par héritage */
+    color: inherit;
+    /* on enlève le soulignement */
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    /* on enlève les coins arrondis */
+    border-radius: 0;
+    font-family: inherit;
+    font-size: inherit;
+}

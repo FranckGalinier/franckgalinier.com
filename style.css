@@ -1,0 +1,53 @@
+/* Import des polices */
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+
+*{
+    background-color: rgba(15,23,42,1) ;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+} 
+h1{
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar-nav, .navbar-collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.navbar-brand, .nav-link{
+    color: rgba(255, 255, 255, 0.8);
+    margin-right: 10px;
+}
+.nav-link:hover{
+    color: aquamarine;
+}
+.nav-link.active{
+    background-color: aliceblue !important;
+    color: rgba(15,23,42,1) !important;
+}
+
+  
