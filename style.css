@@ -3,60 +3,89 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
-*{
-    background-color: rgba(15,23,42,1) ;
+* {
+    background-color: rgba(15, 23, 42, 1);
     color: rgba(255, 255, 255, 0.8);
 }
-body{
-    background-color: rgba(15,23,42,1) ;
+
+body {
+    background-color: rgba(15, 23, 42, 1);
     cursor: url(./cursor/Arrow.cur), auto;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-} 
-h1{
+}
+
+h1 {
     font-size: 48px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
-h2{
+
+h2 {
     font-weight: 500;
     font-size: 22px;
 }
 
-.title{
+.title {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.navbar-nav, .navbar-collapse{
+.navbar-nav,
+.navbar-collapse {
     display: flex;
     justify-content: center;
     align-items: center;
     object-fit: contain;
 }
-.navbar-brand, .nav-link{
+
+.navbar-brand,
+.nav-link {
     color: rgba(255, 255, 255, 0.8);
     margin-right: 10px;
 }
-.nav-link:hover , .navbar-brand:hover{
+
+.nav-link:hover,
+.navbar-brand:hover {
     color: aquamarine;
 }
-.nav-link.active{
+
+.nav-link.active {
     background-color: aliceblue !important;
-    color: rgba(15,23,42,1) !important;
+    color: rgba(15, 23, 42, 1) !important;
 }
 
-.nav{
+.nav {
     height: 80px;
 }
 
-li.nav-item{
+.navbar {
+    border: 1px solid rgb(32, 96, 170);
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li.nav-item {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,23 +93,30 @@ li.nav-item{
 }
 
 /* Body */
-.mesinfos{
+.mesinfos {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-h4{
+
+h4 {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.icone-language{
+.icone-language {
     font-size: 40px;
     margin-right: 10px;
     height: 50px;
-    width: 50px;    
+    width: 50px;
 }
+
 a {
     cursor: url(./cursor/Link.cur), auto;
+}
+
+.bi {
+    width: 50px !important;
+    height: 50px;
 }
