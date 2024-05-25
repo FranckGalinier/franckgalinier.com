@@ -19,9 +19,10 @@
 
 /* Tout le style */
 * {
-    background-color: rgba(15, 23, 42, 1);
     color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(15, 23, 42, 1);
     cursor: url(./cursor/Arrow.cur), auto;
+    width: 100%;
 }
 
 h1,
@@ -58,7 +59,6 @@ h2 {
 .navbar-brand,
 .nav-link {
     color: rgba(255, 255, 255, 0.8);
-    margin-right: 10px;
 }
 
 .nav-link:hover,
@@ -71,19 +71,12 @@ h2 {
     color: rgba(15, 23, 42, 1) !important;
 }
 
-.nav {
-    height: 80px;
-}
 
 .navbar {
     border: 1px solid rgb(32, 96, 170);
     border-radius: 10px;
 }
 
-ul {
-    display: flex;
-    justify-content: center;
-}
 
 header {
     position: fixed;
@@ -166,6 +159,16 @@ p{
         top: 50%;
         left: 50%;
         margin-left: -20px;
+
+        h1,h2 {
+          font-weight: 200;
+          margin: 0.4em 0;
+        }
+        h1 { font-size: 3.5em; }
+        h2 {
+          color: #888;
+          font-size: 2em;
+        }
         margin-top: -20px;
         display: none;
     }
@@ -174,3 +177,20 @@ p{
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
     }
+
+    /* Annimation titre */
+  
+    h1,h2 {
+        font-weight: 200;
+        margin: 0.4em 0;
+      }
+      h1 { font-size: 3.5em; 
+        color: #00FF00;}
+      h2 {
+        font-size: 2em;
+      }
+      .title{
+        font-family: 'Raleway', sans-serif;
+        padding: 1em 2em;
+        font-size: 18px;
+      }
