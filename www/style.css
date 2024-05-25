@@ -5,13 +5,22 @@
     font-style: normal;
 }
 
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 200 to 900 */
+
+.inconsolata {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Tout le style */
 * {
     background-color: rgba(15, 23, 42, 1);
     color: rgba(255, 255, 255, 0.8);
-}
-
-body {
-    background-color: rgba(15, 23, 42, 1);
     cursor: url(./cursor/Arrow.cur), auto;
 }
 
@@ -120,3 +129,48 @@ a {
     width: 50px !important;
     height: 50px;
 }
+
+header, main, footer{
+    display :none;
+}
+
+#atout, #competence,#experience, #formation{
+    opacity: 0;
+}
+
+p{
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.terminalgreen{
+    color: #00FF00;
+}
+.terminalorange{
+    color: #FFA500;
+}
+
+#ligne1, #ligne2, #ligne3, #ligne4, #ligne5, #ligne6, #ligne7{
+    display: none;
+}
+
+#loader {
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid #00FF00;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -20px;
+        margin-top: -20px;
+        display: none;
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
