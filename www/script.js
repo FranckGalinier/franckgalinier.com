@@ -44,7 +44,7 @@ function hophop(id, callback) {
             clearInterval(timer);
             if (callback) callback();
         }
-    }, Math.random() * (150 - 70) + 70);
+    },50);
 }
 
 //méthode qui permet d'afficher la div à l'appui du bouton "Entrée"
@@ -81,7 +81,7 @@ document.addEventListener('keydown', (event) => {
             setTimeout(() => {
                 hideLoader();
                 showContent();
-            }, 10000); // Replace with your actual data loading logic and time
+            }, 9000); // Replace with your actual data loading logic and time
 
             function hideLoader() {
                 const loader = document.getElementById("loader");

@@ -20,8 +20,14 @@
 /* Tout le style */
 * {
     color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(15, 23, 42, 1);
-    cursor: url(./cursor/Arrow.cur), auto;
+    background-image: linear-gradient(
+    to bottom,
+    rgba(28, 32, 54, 0.9),
+    rgba(0, 0, 148, 0.8)
+  ), url("../6661-ligne-de-codes-programmation-WallFizz.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url(./cursor/Arrow.cur), default;
     width: 100%;
 }
 
@@ -56,25 +62,21 @@ h2 {
     object-fit: contain;
 }
 
-.navbar-brand,
-.nav-link {
+a{
+    cursor: url(./cursor/Link.cur), pointer;
+}
+.nav{
     color: rgba(255, 255, 255, 0.8);
 }
-
-.nav-link:hover,
-.navbar-brand:hover {
-    color: aquamarine;
+a.nav-link{
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 10px;
 }
-
-.nav-link.active {
-    background-color: aliceblue !important;
-    color: rgba(15, 23, 42, 1) !important;
-}
-
-
-.navbar {
-    border: 1px solid rgb(32, 96, 170);
-    border-radius: 10px;
+a.nav-link:hover{
+    color: white;
+    background: rgb(12, 41, 109);
+    border-radius: 5px;
 }
 
 
@@ -92,13 +94,15 @@ li.nav-item {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    border-radius: 5px;
 }
+
 
 /* Body */
 .mesinfos {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+   
+    margin: 50px;
 }
 
 h4 {
@@ -107,21 +111,6 @@ h4 {
     margin-bottom: 20px;
 }
 
-.icone-language {
-    font-size: 40px;
-    margin-right: 10px;
-    height: 50px;
-    width: 50px;
-}
-
-a {
-    cursor: url(./cursor/Link.cur), auto;
-}
-
-.bi {
-    width: 50px !important;
-    height: 50px;
-}
 
 header, main, footer{
     display :none;
@@ -171,10 +160,11 @@ p{
         }
         margin-top: -20px;
         display: none;
+        background: rgba(0, 0, 148, 0.7);
     }
     
     @keyframes spin {
-        0% { transform: rotate(0deg); }
+        0% { transform: rotate(0deg);}
         100% { transform: rotate(360deg); }
     }
 
@@ -185,7 +175,7 @@ p{
         margin: 0.4em 0;
       }
       h1 { font-size: 3.5em; 
-        color: #00FF00;}
+        color: #0d990d;}
       h2 {
         font-size: 2em;
       }
