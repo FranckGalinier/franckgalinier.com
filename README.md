@@ -1,5 +1,10 @@
 ### Hi there 👋
+I'm 26 years old
+and I'm Web Developer Junior.
 
+Here you can see lot of project when I work during my formation. 
+
+Do not hesitate to send me a message. Good reading !! 
 <!--
 **FranckGalinier/FranckGalinier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
