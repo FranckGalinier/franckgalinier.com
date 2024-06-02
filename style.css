@@ -24,7 +24,7 @@
     to bottom,
     rgba(28, 32, 54, 0.9),
     rgba(0, 0, 148, 0.8)
-  ), url("../6661-ligne-de-codes-programmation-WallFizz.jpg");
+  ), url("./images/6661-ligne-de-codes-programmation-WallFizz.jpg");
     background-size: cover;
     background-attachment: fixed;
     cursor: url(./cursor/Arrow.cur), default;
@@ -65,18 +65,21 @@ h2 {
 a{
     cursor: url(./cursor/Link.cur), pointer;
 }
+
 .nav{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 0, 0, 0.8);
+}
+
+.nav-link{
+    font-size: 20px;
 }
 a.nav-link{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 0, 0, 0.8);
     border-radius: 5px;
     padding: 10px;
 }
 a.nav-link:hover{
     color: white;
-    background: rgb(12, 41, 109);
-    border-radius: 5px;
 }
 
 
@@ -100,11 +103,16 @@ li.nav-item {
 
 
 /* Body */
+
 .mesinfos {
-   
-    margin: 50px;
+    margin-top: 50px;
+    display: block;
 }
 
+h3{
+    margin-left: 20px;
+    font-size: 30px;
+}
 h4 {
     font-size: 24px;
     font-weight: 500;
@@ -123,7 +131,7 @@ header, main, footer{
 p{
     padding: 10px;
     margin-top: 25px;
-    margin-left: 15px;
+    padding-left: 15px;
 }
 
 .terminalgreen{
