@@ -116,13 +116,6 @@ h3{
     margin-left: 20px;
     font-size: 30px;
 }
-h4 {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: center;
-}
 
 
 header, main, footer{
@@ -227,4 +220,11 @@ header, main, footer{
     text-align: center;
     margin-top: 150px;
     margin-bottom: 150px;
+    }
+
+    h4{
+        text-align: start;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 500;
     }
