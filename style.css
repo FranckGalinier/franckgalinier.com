@@ -133,7 +133,7 @@ header, main, footer{
     opacity: 0;
 }
 
-p{
+.pchargement{
     padding: 10px;
     margin-top: 25px;
     padding-left: 15px;
@@ -225,7 +225,6 @@ p{
     /* Partie competence */
     .competence-title{
     text-align: center;
-    padding-left: 400px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     }
